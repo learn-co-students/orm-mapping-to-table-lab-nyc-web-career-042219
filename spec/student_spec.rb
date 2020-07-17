@@ -10,6 +10,7 @@ describe "Student" do
   describe "when initialized with a name and a grade" do
     it 'the name attribute can be accessed' do
       student = Student.new("Tiffany", "11th")
+    
       expect(student.name).to eq("Tiffany")
     end
 
